@@ -33,7 +33,6 @@ Node *kReverse(Node *head, int k)
 	head->next = temp;
 	return prev;
 }
-
 Node *takeinput()
 {
 	int data;
